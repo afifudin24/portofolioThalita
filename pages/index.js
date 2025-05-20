@@ -23,7 +23,8 @@ import {
   IoLogoTwitter,
   IoLogoInstagram,
   IoLogoGithub,
-  IoLogoLinkedin
+  IoLogoLinkedin,
+  IoLogoWebComponent
 } from 'react-icons/io5'
 import Image from 'next/image'
 import { MdStar } from 'react-icons/md'
@@ -184,7 +185,7 @@ const Home = () => (
         </Heading>
         <List>
           <ListItem>
-            <Link href="https://github.com/satrio100" target="_blank">
+            <Link href="https://github.com/Thalitaalyaputri" target="_blank">
               <Button
                 variant="ghost"
                 colorScheme="teal"
@@ -196,7 +197,7 @@ const Home = () => (
           </ListItem>
           <ListItem>
             <Link
-              href="http://www.linkedin.com/in/satrio-janara-arafa-975b4a295"
+              href="https://www.linkedin.com/in/thalita-alya-putri-3329b8305/"
               target="_blank"
             >
               <Button
@@ -219,6 +220,21 @@ const Home = () => (
                 leftIcon={<IoLogoInstagram />}
               >
                 @thalitaputri_07
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link
+              href="https://tkj.smkdaka.sch.id"
+              target="_blank"
+            >
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoWebComponent
+                 />}
+              >
+                TKJ DAKA
               </Button>
             </Link>
           </ListItem>
