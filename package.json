@@ -1,0 +1,38 @@
+{
+  "name": "Thalita Alya Putri",
+  "version": "1.0.0",
+  "description": "Thalita Alya Putri's personal website",
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "prettier": "prettier --write .",
+    "lint": "next lint"
+  },
+  "keywords": [],
+  "author": "Thalita Alya Putri",
+  "license": "MIT",
+  "dependencies": {
+    "@chakra-ui/icons": "^1.1.7",
+    "@chakra-ui/react": "^1.8.8",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@react-three/drei": "^9.56.4",
+    "@react-three/fiber": "^8.13.6",
+    "aos": "^2.3.4",
+    "axios": "^1.9.0",
+    "framer-motion": "^6.3.0",
+    "lottie-react": "^2.4.1",
+    "next": "^12.1.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-icons": "^4.3.1",
+    "react-pdf": "^5.7.2",
+    "three": "^0.139.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.13.0",
+    "eslint-config-next": "^12.1.5",
+    "prettier": "^2.6.2"
+  }
+}
