@@ -24,6 +24,7 @@ import { Badge, Wrap, WrapItem, List, ListIcon } from '@chakra-ui/react'
 import { GridItem } from '../components/grid-item'
 import SpotifyWidget from '../components/Spotify'
 import SpotifyFixed from '../components/SpotifyFixed'
+
 import {
   IoLogoTwitter,
   IoLogoInstagram,
@@ -272,12 +273,13 @@ const Home = () => {
 
             <Box align="center" my={4}>
               <NextLink
-                href="https://drive.google.com/file/d/1f8wTm2_UAicf9EZ5vJ4tMVEmUMLiXR2k/view?usp=sharing"
+                href="/Resume.pdf"
                 passHref
+                
                 scroll={false}
               >
                 <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-                  <a href="https://drive.google.com/file/d/1f8wTm2_UAicf9EZ5vJ4tMVEmUMLiXR2k/view?usp=sharing">
+                  <a href="/Resume.pdf" target='_blank'>
                     Download Resume
                   </a>
                 </Button>
